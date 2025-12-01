@@ -1,0 +1,7 @@
+{
+  "name": "Indian Culture Navigator",
+  "description": "An immersive web experience exploring the rich tapestry of Indian culture, heritage, arts, and traditions, featuring an AI-powered chatbot to answer all your questions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
