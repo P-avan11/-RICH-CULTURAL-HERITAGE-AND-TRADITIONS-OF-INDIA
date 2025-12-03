@@ -1,26 +1,134 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Indian Culture Navigator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-  <body class="bg-gray-900">
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body>
+    <div class="main" id="home"> 
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">indian culture</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#design">DESIGN</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="indianmap.html">INDIAN MAP</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="search" placeholder="Type to Search">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </div> 
+        
+        <div class="content">
+            <div class="left-content">
+                <h1>Explore the Richness of<br><span>Indian Culture</span> <br>and Heritage</h1>
+                <p class="par">India is a land of diverse traditions, languages, and festivals. <br>
+                    From ancient history to vibrant modern art, its heritage is truly captivating.</p>
+                <button class="cn">
+                    <a href="learnmore.html">LEARN MORE</a></button>
+            </div>
+
+            <!--<div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="password" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login</a></button>
+
+                <p class="link">Don't have an account?<br>
+                <a href="#">Sign up here</a></p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-skype"></i></a>
+                </div>-->
+            </div> 
+        </div> 
+    </div>>
+
+    <section class="page-section alternate-bg" id="about">
+        <div class="section-container">
+            <h2>About Indian Culture</h2>
+            <p>India's culture is among the world's oldest and most diverse, spanning thousands of years. It is a blend of various customs, traditions, beliefs, languages, cuisines, social habits, music, and arts. The nation is renowned for its unity in diversity, where numerous cultures coexist harmoniously.</p>
+            <p>From the spiritual traditions of yoga and meditation to the vibrant festivals like Diwali and Holi, Indian culture offers a rich tapestry of experiences. Its ancient scriptures, classical dances, intricate art forms, and architectural wonders speak volumes about its glorious past and enduring legacy.</p>
+            <img src='11.jpg' alt="Diversity of Indian Culture" class="section-image">
+            <p>We delve into the various facets of this profound heritage, aiming to provide a comprehensive understanding and appreciation of India's cultural wealth.</p>
+        </div>
+    </section>
+
+    <section class="page-section" id="service">
+        <div class="section-container">
+            <h2>Our Cultural Offerings</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3><a href="heritage.html">Heritage Tours</a></h3>
+                    <p>Experience historical sites and cultural landmarks across India.</p>
+                </div>
+                <div class="service-item">
+                    <h3><a href="Painting & Folk Arts.html">Painting & Folk Arts</a></h3>
+                    <p>Learn traditional Indian art forms like Rangoli, Mehendi, and pottery.</p>
+                </div>
+                <div class="service-item">
+                    <h3><a href="Crafts & Handicrafts.html">Crafts & Handicrafts</a></h3>
+                    <p>Discover the diverse flavors of Indian cuisine through cooking classes.</p>
+                </div>
+                <div class="service-item">
+                    <h3><a href="music&dance.html" >Dance & Music Classes</a></h3>
+                    <p>Immerse yourself in classical Indian dance and musical traditions.</p>
+                </div>
+                <div class="service-item">
+                    <h3><a href="indian languages.html">Indian languages</a></h3>
+                    <p>The beauty of India’s many languages, each a voice of culture, tradition, and unity.</p>
+            </div>
+            <div class="service-item">
+                <h3><a href="Indian festivals"></a>Indian festivals</a></h3>
+                <p>India celebrates a diverse range of festivals, including Diwali, Holi, Eid, Christmas, Pongal, Baisakhi, and Durga Puja, reflecting its rich cultural, religious, and regional traditions.</p>
+            </div>
+            <!--p>Join us to explore and participate in India's rich cultural tapestry.</p-->
+        </div>
+    </section>
+
+    <section class="page-section alternate-bg" id="design">
+        <div class="section-container">
+            <h2>Architectural & Art Forms</h2>
+            <p>Indian design is a testament to its history, spirituality, and artistic ingenuity. From the grandeur of Mughal architecture to the intricate carvings of Hindu temples, every structure tells a story.</p>
+            <p>Beyond monumental architecture, traditional Indian art forms like miniature paintings, textile designs (e.g., Block Printing, Ikat), and folk art (e.g., Madhubani, Warli) showcase a profound connection to nature, mythology, and daily life. These designs are not just aesthetic; they are deeply symbolic.</p>
+            <img src='111.jpg.png' alt="Indian Architecture and Art" class="section-image">
+            <p>Our goal is to highlight the beauty and complexity behind these timeless designs that continue to inspire globally.</p>
+        </div>
+    </section>
+
+    <section class="page-section" id="contact">
+        <div class="section-container">
+            <h2>Connect With Us</h2>
+            <p>Have a question about Indian culture or our offerings? Feel free to reach out!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cn">Send Message</button>
+            </form>
+            <p class="contact-info">
+                Email: explore@indianculture.com<br>
+                Phone: +91 98765 43210<br>
+                Address: Cultural Hub, New Delhi, India
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script> 
 </body>
 </html>
